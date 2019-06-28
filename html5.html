@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="html5.css">
+    <script src="html5.js"></script>
+</head>
+
+
+<body>
+<div id ="sub">
+    subjects :
+    <input type="text" name="first" id="sub1">
+    <input type="text" name="second" class= "first" id="sub2">
+    <input type="text" name="third" class= "first" id="sub3">
+    <input type="text" name="forth" class= "first" id="sub4">
+</div>
+<br/>
+<br/>
+
+<div id="degree">
+    Degrees :
+    <input type="text" name="fifth" id="firstdegree">
+    <input type="text" name="six"  class="ffirst" id="seconddegree">
+    <input type="text" name="seven" class="ffirst" id="thirddegree">
+    <input type="text" name="eight" class="ffirst" id="forthdegree">
+</div>
+<br/>
+<div id ="color">
+    Choose color <input type="color" name="favcolor" value="#ff00f0" class="cc" id="firstcol">
+    Choose color <input type="color" name="favcolor" value="#ff0100" class="cc" id="secondcol">
+    Choose color <input type="color" name="favcolor" value="#ff000f" class="cc" id="thirdcol">
+    Choose color <input type="color" name="favcolor" value="#f00000" class="cc" id="forthcol">
+</div>
+<br/>
+<hr/>
+<br/>
+<div id="checked">
+        Pie chart <input type="checkbox" name="Pie" class="ch" id="pie"> 
+        Doughunt chart <input type="checkbox" name="Doughunt" class="ch" id="dou"> 
+        Line chart <input type="checkbox" name="Line" class="ch" id="line"> 
+        Bsr chart<input type="checkbox" name="Bsr" class="ch" id="bsr">
+
+</div>
+<br/>
+<br/>
+
+<button type="button" id="but">Generate Chart!</button>
+<br/>
+<br/>
+<br/>
+<hr/>
+
+<div style="margin-left: 1300px">
+    <input type="text" name="first" id="tx1"> 
+    <span style="width: 40px ; height: 20px ;display: inline-block;"     value="#ff00f0"  id="col1" ></span>
+</div>
+
+<div style="margin-left: 1300px">
+    <input type="text" name="first"  id="tx2" > 
+    <span  style="width: 40px; height: 20px ;display: inline-block;"  value="#ff00f0" id="col2"></span>
+</div>
+<div style="margin-left: 1300px">
+    <input type="text" name="first"  id="tx3" > 
+    <span  style="width: 40px; height: 20px ;display: inline-block;"  value="#ff00f0"   id="col3"></span>
+</div>
+<div  style="margin-left: 1300px ; width: 400px;">
+    <input type="text" name="first"  id="tx4" > 
+    <span  style="width: 40px; height: 20px ;display: inline-block;"  value="#ff00f0"  id="col4"></span>
+</div>
+
+
+
+<canvas width="600" height="400" style="border:1px solid white" id="myCanvas"></canvas>
+
+<!-- 
+<svg style="stroke-width:2p;stroke:black;border:1px solid green; ">
+<polyline points="20,30 40,40 40,80 80,80 80,120 120,120 120,160 " style="fill:white;stroke:red;stroke-width:4 " />
+
+</svg> -->
+
+<br/>
+<br/>
+
+<svg width ="600px" height="600px">
+    <!-- <polyline id="polyline_1" points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"  style="fill:white;stroke:red;stroke-width:4" /> -->
+
+<!-- <h1>200</h1>
+<h1>300</h1>
+<h1>400</h1>
+<h1>500</h1>
+<h1>600</h1>   -->
+
+        <line x1="40" y1="40" x2="40" y2="600" style="stroke:rgb(0, 0, 0);stroke-width:2"/>
+     
+        <line x1="40" y1="600" x2="600" y2="600" style="stroke:rgb(0,0,0);stroke-width:2"/>
+  <text x="100" y="590" id="tex1">java</text>
+  <text x="200" y="590" id="tex2">ui</text>
+  <text x="350" y="590" id="tex3">ux</text>
+  <text x="550" y="590" id="tex4">c#</text>
+
+
+  
+  <text x="20" y="550" >0</text>
+  <text x="10" y="450" >100</text>
+  <text x="10" y="350" >200</text>
+  <text x="10" y="250" >300</text>
+  <text x="10" y="150" >400</text>
+  <text x="10" y="50" >500</text>
+  <text x="10" y="0" >600</text>
+
+    <line id="line_1" x1="100" y1="500" x2="200" y2="200" style="stroke:rgb(255, 255, 255);stroke-width:2" />
+    <line  id="line_2" x1="200" y1="200" x2="400" y2="400" style="stroke:rgb(255, 255, 255);stroke-width:2" />
+
+    <line  id="line_3" x1="400" y1="400" x2="600" y2="100" style="stroke:rgb(255, 255, 255);stroke-width:2" />
+
+    <!-- <p style="margin-left: 40px"  >100</p>
+    <p style="margin-left: 140px">200</p>
+    <p style="margin-left: 240px">300</p>
+    <p style="margin-left: 340px">400</p>
+    <p style="margin-left: 440px">500</p>
+    <p style="margin-left: 540px">600</p> -->
+
+  </svg>
+<br/>
+<br/>
+<svg width ="600px" height="600px">
+
+        <line x1="40" y1="40" x2="40" y2="550" style="stroke:rgb(0, 0, 0);stroke-width:2"/>
+     
+        <line x1="40" y1="550" x2="550" y2="550" style="stroke:rgb(0,0,0);stroke-width:2"/>
+
+
+        <text x="80" y="580" id="text1">java</text>
+        <text x="220" y="580" id="text2">ui</text>
+        <text x="380" y="580" id="text3">ux</text>
+        <text x="520" y="580" id="text4">c#</text>
+      
+
+        <text x="20" y="550" >0</text>
+        <text x="15" y="450" >100</text>
+        <text x="15" y="350" >200</text>
+        <text x="15" y="250" >300</text>
+        <text x="15" y="150" >400</text>
+        <text x="15" y="50" >500</text>
+        <text x="15" y="0" >600</text>
+       
+
+          <rect id="rect_1"  x="60" y="448"  width="70" height="100" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(252, 252, 252) " />;
+          <rect id="rect_2"  x="200" y="448"  width="70" height="100" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(255, 255, 255) " />;
+          <rect id="rect_3" x="350" y="448"  width="70" height="100" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(255, 255, 255) " />;
+          <rect id="rect_4"  x="480" y="448"  width="70" height="100" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(255, 255, 255)" />;
+</svg>
+
+
+
+</body>
+
+</html>
